@@ -63,7 +63,7 @@ npm test
 npm run build
 ```
 
-- Node 22. Inga andra verktyg.
+- Node 22, minst 22.23.4. Inga andra verktyg.
 - Svenska i gränssnitt, kommentarer, commit-meddelanden och dokumentation. Engelska nyckelnamn i datan, så att infra kan flytta in utan översättning.
 - Ingen databas, inga nycklar, inga hemligheter. Allt byggs från repot.
 - Håll sajten statisk, utan kakor och utan spårning av enskilda. Besök räknas anonymt, se integritetssidan. Lägg inte till fler skript som räknar eller följer besökare, och anropa aldrig räkningens `identify`, `group` eller `enableCookie`: de gör räkningen till ett sparat id.
