@@ -7,7 +7,7 @@
   "license": "AGPL-3.0-only",
   "homepage": "https://karta.opensverige.se",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.23.4"
   },
   "scripts": {
     "predev": "node scripts/kopiera-maplibre-worker.mjs",
