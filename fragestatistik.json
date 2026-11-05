@@ -15,6 +15,24 @@
       "typ": {},
       "erbjuder": {},
       "lan": {}
+    },
+    "2026-11-05": {
+      "fragor": 8,
+      "modellen_svarade": 8,
+      "svar": {
+        "bred": 3,
+        "traffar": 4,
+        "tomt": 1
+      },
+      "modellfel": {},
+      "omrade": {
+        "ovrigt": 2
+      },
+      "typ": {},
+      "erbjuder": {
+        "ovrigt": 2
+      },
+      "lan": {}
     }
   },
   "luckor": [
@@ -371,6 +389,21 @@
     {
       "fran": "2026-11-04T17:30:22.720Z",
       "till": "2026-11-04T21:55:31.241Z",
+      "orsak": "lagring"
+    },
+    {
+      "fran": "2026-11-04T22:45:31.241Z",
+      "till": "2026-11-05T01:59:09.141Z",
+      "orsak": "lagring"
+    },
+    {
+      "fran": "2026-11-05T02:49:09.141Z",
+      "till": "2026-11-05T09:47:55.749Z",
+      "orsak": "lagring"
+    },
+    {
+      "fran": "2026-11-05T10:37:55.749Z",
+      "till": "2026-11-05T17:24:31.022Z",
       "orsak": "lagring"
     }
   ]
