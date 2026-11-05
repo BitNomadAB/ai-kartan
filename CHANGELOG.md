@@ -2,6 +2,10 @@
 
 Kodens och funktionernas historik. Dataändringar loggas separat och automatiskt i `history/changelog.json` och på sajten under Ändringar. Samma rader som här finns maskinläsbart i `history/bygglogg.json`.
 
+## 2026-11-05
+
+- Frågestatistiken tappar inte längre större delen av dygnet. Jobbet hos GitHub är schemalagt var femtonde minut, men GitHub startade det bara var andra till sjunde timme. Skriptet hämtade ändå bara loggens senaste timme, som om sajten låg på Vercels gratisplan. Allt äldre blev en lucka, mellan 21 oktober och 4 november ungefär 82 procent av tiden, fast loggen fanns kvar. Sajten ligger på Pro, där Vercel sparar loggen ett dygn. Nu läser skriptet teamets plan och hämtar så långt bak som loggen sparas. Går planen inte att läsa räknas en timme, och tiden före blir en lucka som förut. Personuppgifter säger nu att loggen sparas ett dygn. Frågor i de gamla luckorna går inte att räkna i efterhand.
+
 ## 2026-10-23
 
 - Sökpaletten skiljer på att fråga AI:n och att bläddra i kartan. Förut såg båda ut som samma piller, fast det ena skickar en fråga till modellen och det andra byter kartans urval. Nu står frågorna att prova på en egen grön yta under rubriken Fråga AI:n. Under den står Visa på kartan: områden, typer och län som en lista i två kolumner, med antalet i linje till höger, så att det syns vilka som är störst. Listan läses uppifrån och ned i första kolumnen och sedan i den andra, så att skärmläsare och tangentbord följer samma ordning som ögat. I telefon ligger frågorna på en rad som sveps i sidled, och listan har en rad per område. Måtten följer ett gemensamt rutnät: en skala i steg om 4 punkter, en kant 24 punkter in (16 i telefon) med text efter en glyf på samma linje, och åtta kolumner. Reglerna ligger i `src/components/Fraga.astro`.
