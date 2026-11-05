@@ -45,13 +45,13 @@ description:
   verified_by: agent
 
 offers:
-  value: [utveckling, oppen_kallkod]
+  value: [utveckling]
   status: claimed
   source_url: https://bitnomad.se/sv/
   source_type: own_site
-  verified_at: 2026-11-01
+  verified_at: 2026-11-05
   verified_by: agent
-  note: Webbplatsen märker Tralala och Skills som open source. Licenserna är inte kontrollerade.
+  note: Webbplatsen märker Tralala och Skills som open source, men Tralala ligger under PolyForm Noncommercial 1.0.0 och Skills saknar licens. Ingen av dem är öppen källkod enligt OSI, så koden räknas som publik, inte öppen.
 
 areas:
   value: [agenter_automation]
@@ -108,4 +108,4 @@ links:
   github: https://github.com/BitNomadAB
 
 record_created_at: 2026-11-01
-record_updated_at: 2026-11-01
+record_updated_at: 2026-11-05
