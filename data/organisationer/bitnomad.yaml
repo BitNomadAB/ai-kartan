@@ -37,11 +37,11 @@ org_number:
 website: https://bitnomad.se
 
 description:
-  value: Konsultbolag inom systemutveckling som bygger AI-lösningar som automatiserar arbetsflöden och integreras med befintliga system. Utvecklar Tralala, en självhostad kanban där AI-agenter arbetar via API, och publicerar öppna AI-skills som låter kodassistenter granska arkitektur, affärsidé och risker.
+  value: Konsultbolag inom systemutveckling som bygger AI-lösningar som automatiserar arbetsflöden och integreras med befintliga system. Utvecklar Tralala, en självhostad kanban där AI-agenter arbetar via API, och publicerar publika AI-skills som låter kodassistenter granska arkitektur, affärsidé och risker.
   status: claimed
   source_url: https://bitnomad.se/sv/
   source_type: own_site
-  verified_at: 2026-11-01
+  verified_at: 2026-11-05
   verified_by: agent
 
 offers:
@@ -51,7 +51,7 @@ offers:
   source_type: own_site
   verified_at: 2026-11-05
   verified_by: agent
-  note: Webbplatsen märker Tralala och Skills som open source, men Tralala ligger under PolyForm Noncommercial 1.0.0 och Skills saknar licens. Ingen av dem är öppen källkod enligt OSI, så koden räknas som publik, inte öppen.
+  note: Webbplatsen märker Skills som open source och Tralala som source-available. Tralala ligger under PolyForm Noncommercial 1.0.0 och Skills saknar licens. Ingen av dem är öppen källkod enligt OSI, så koden räknas som publik, inte öppen.
 
 areas:
   value: [agenter_automation]
@@ -98,9 +98,9 @@ evidence:
     note: README beskriver agenter med egna OpenAI-kompatibla eller A2A-ändpunkter och ett REST-API som agenterna arbetar genom.
   - url: https://github.com/BitNomadAB/Skills
     kind: repo
-    title: "Skills: öppna AI-skills för kodassistenter"
+    title: "Skills: publika AI-skills för kodassistenter"
     status: claimed
-    verified_at: 2026-11-01
+    verified_at: 2026-11-05
     verified_by: agent
     note: Skills som låter en kodassistent analysera affärsidé, konkurrenter, arkitektur och risker.
 
