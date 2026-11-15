@@ -106,7 +106,19 @@ npm run build        # validerar och bygger till dist/
 | `node scripts/tips.mjs --fil arende.md` | Läser det korta formuläret och skriver svaret som boten ger i ärendet. |
 | `npm test` | Kör testerna för intaget av nya organisationer och för nedladdningen av ett urval. |
 
-Miljövariabler vid bygge: `SITE_URL` (standard `https://karta.opensverige.se`) och `BASE_PATH` (standard `/`).
+Miljövariabler vid bygge: `SITE_URL` (standard `https://karta.opensverige.se`) och `BASE_PATH` (standard `/`). `PUBLIC_PIXELKARTA_URL` slår på pixelkartan, se nedan.
+
+## Pixelkartan
+
+Stockholm, Göteborg och Malmö finns ritade som pixelstäder. De visas i sajtens egen karta: långt ute som små öar, och när man zoomar in lutar sig kartan och staden syns i full skärpa, med organisationerna kvar ovanpå. Koden ligger i `src/lib/pixelkarta/`.
+
+Pixelkartan är avstängd om inte `PUBLIC_PIXELKARTA_URL` är satt vid bygget. Värdet är adressen till bildtjänsten som lämnar ut kartbilderna, fram till och med versionen. Utan det byggs ingenting av pixelkartan in, och sajten är den vanliga kartan. Svarar bildtjänsten inte är sajten också den vanliga kartan. Besökaren kan själv slå av pixelkartan med en knapp på kartan.
+
+I en pixelstad står organisationerna så här: den som har en exakt adress står vid sitt hus, och väljs den ritas huset ut i färg medan staden runt det tonas ner. Den som saknar exakt adress flyter i vattnet, som en kontur med en ring under. I kommunens rutnät skulle den hamna på ett hus, och på en karta där varje hus syns läses en prick som just det huset. Utanför pixelstäderna, och när pixelkartan är av, står alla som förut. Platserna i vattnet och husens former kommer från bildtjänsten, inte från repot.
+
+Medan pixelkartan är på står ett märke i kartan: ”Skapad av Gustaf Baltsar Garnow”, med länk till headless.design. Över hela landet, där städerna bara syns som öar, står också frågan ”Vill du se din stad i pixlar? Hör av dig.” under namnet. Märket står nere till vänster i kartan, och uppe till höger i telefon. Samma namn står i raden med kartans källor.
+
+Kartbilderna ligger inte i repot. Bildtjänsten svarar bara sajten själv, så ett eget bygge med adressen satt visar den vanliga kartan.
 
 ## Fråga kartan
 
@@ -153,6 +165,7 @@ Citera med status och datum: *OpenSverige AI-kartan, ”Organisation”, hämtad
 - **Kod:** [AGPL-3.0](LICENSE).
 - **Data:** [CC BY 4.0](LICENSE-DATA) med attribution ”OpenSverige AI-kartan, karta.opensverige.se”. Enskilda fakta är fria. Uppgifter om enskilda firmor är personuppgifter och omfattas inte av licensen som sådana.
 - Kartunderlag: © OpenFreeMap, © OpenMapTiles, data från OpenStreetMap-bidragsgivare. Gränser: geoBoundaries (CC0 / CC BY 3.0). Typsnitt: SIL OFL.
+- **Pixelkartans bilder** ingår inte i repot och omfattas varken av AGPL eller CC BY. De är gjorda av Gustaf Baltsar Garnow och får inte kopieras eller återanvändas utan hans tillstånd. Underlag: Google Photorealistic 3D Tiles och OpenStreetMap. Koden som visar dem är AGPL som resten.
 
 ---
 
