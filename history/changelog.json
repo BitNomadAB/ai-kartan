@@ -1,8 +1,23 @@
 {
-  "generated_at": "2026-11-17T20:21:22Z",
-  "antal": 545,
+  "generated_at": "2026-11-17T21:59:45Z",
+  "antal": 546,
   "senaste_andring": "2026-11-17",
   "rader": [
+    {
+      "datum": "2026-11-17",
+      "commit": "b9a118fbf4",
+      "id": "squidler",
+      "namn": "Squidler",
+      "falt": "coordinates",
+      "andring": "ny uppgift",
+      "gammalt": null,
+      "nytt": {
+        "lat": 55.61123,
+        "lng": 12.99422
+      },
+      "status": "confirmed",
+      "kalla": "https://www.allabolag.se/5594177403"
+    },
     {
       "datum": "2026-11-17",
       "commit": "2abddaabab",
