@@ -1,8 +1,59 @@
 {
-  "generated_at": "2026-11-17T09:10:39Z",
-  "antal": 535,
+  "generated_at": "2026-11-17T20:07:07Z",
+  "antal": 539,
   "senaste_andring": "2026-11-17",
   "rader": [
+    {
+      "datum": "2026-11-17",
+      "commit": "87cf1a8ad2",
+      "id": "smhi",
+      "namn": "Sveriges meteorologiska och hydrologiska institut",
+      "falt": "coordinates",
+      "andring": "ny uppgift",
+      "gammalt": null,
+      "nytt": {
+        "lat": 58.58123,
+        "lng": 16.14809
+      },
+      "status": "claimed",
+      "kalla": "https://www.smhi.se/en/contact-smhi"
+    },
+    {
+      "datum": "2026-11-17",
+      "commit": "87cf1a8ad2",
+      "id": "siemens-energy",
+      "namn": "Siemens Energy",
+      "falt": "hela posten",
+      "andring": "tillagd",
+      "gammalt": null,
+      "nytt": null,
+      "status": null,
+      "kalla": "https://www.siemens-energy.com/se/sv/home.html"
+    },
+    {
+      "datum": "2026-11-17",
+      "commit": "87cf1a8ad2",
+      "id": "restipulate",
+      "namn": "Restipulate",
+      "falt": "hela posten",
+      "andring": "tillagd",
+      "gammalt": null,
+      "nytt": null,
+      "status": null,
+      "kalla": "https://restipulate.se"
+    },
+    {
+      "datum": "2026-11-17",
+      "commit": "87cf1a8ad2",
+      "id": "awiant",
+      "namn": "Awiant",
+      "falt": "hela posten",
+      "andring": "tillagd",
+      "gammalt": null,
+      "nytt": null,
+      "status": null,
+      "kalla": "https://awiant.com"
+    },
     {
       "datum": "2026-11-17",
       "commit": "bfe4c35449",
