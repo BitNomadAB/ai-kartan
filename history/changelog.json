@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-11-16T23:30:59Z",
-  "antal": 534,
+  "generated_at": "2026-11-17T09:10:39Z",
+  "antal": 535,
   "senaste_andring": "2026-11-17",
   "rader": [
+    {
+      "datum": "2026-11-17",
+      "commit": "bfe4c35449",
+      "id": "hiasynth",
+      "namn": "Hiasynth",
+      "falt": "hela posten",
+      "andring": "tillagd",
+      "gammalt": null,
+      "nytt": null,
+      "status": null,
+      "kalla": "https://hiasynth.co"
+    },
     {
       "datum": "2026-11-17",
       "commit": "b671738b46",
