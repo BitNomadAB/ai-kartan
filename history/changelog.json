@@ -1,8 +1,83 @@
 {
-  "generated_at": "2026-11-17T20:07:07Z",
-  "antal": 539,
+  "generated_at": "2026-11-17T20:21:22Z",
+  "antal": 545,
   "senaste_andring": "2026-11-17",
   "rader": [
+    {
+      "datum": "2026-11-17",
+      "commit": "2abddaabab",
+      "id": "voidleap",
+      "namn": "Voidleap",
+      "falt": "coordinates",
+      "andring": "ny uppgift",
+      "gammalt": null,
+      "nytt": {
+        "lat": 57.70046,
+        "lng": 11.94819
+      },
+      "status": "claimed",
+      "kalla": "https://aigothenburg.com/the-hub"
+    },
+    {
+      "datum": "2026-11-17",
+      "commit": "2abddaabab",
+      "id": "squidler",
+      "namn": "Squidler",
+      "falt": "hela posten",
+      "andring": "tillagd",
+      "gammalt": null,
+      "nytt": null,
+      "status": null,
+      "kalla": "https://squidler.io"
+    },
+    {
+      "datum": "2026-11-17",
+      "commit": "2abddaabab",
+      "id": "rebl-industries",
+      "namn": "Rebl Industries",
+      "falt": "hela posten",
+      "andring": "tillagd",
+      "gammalt": null,
+      "nytt": null,
+      "status": null,
+      "kalla": "https://www.rebl.industries"
+    },
+    {
+      "datum": "2026-11-17",
+      "commit": "2abddaabab",
+      "id": "north-house",
+      "namn": "North House",
+      "falt": "hela posten",
+      "andring": "tillagd",
+      "gammalt": null,
+      "nytt": null,
+      "status": null,
+      "kalla": "https://northhouse.se"
+    },
+    {
+      "datum": "2026-11-17",
+      "commit": "2abddaabab",
+      "id": "dentio",
+      "namn": "Dentio",
+      "falt": "hela posten",
+      "andring": "tillagd",
+      "gammalt": null,
+      "nytt": null,
+      "status": null,
+      "kalla": "https://dentio.com"
+    },
+    {
+      "datum": "2026-11-17",
+      "commit": "2abddaabab",
+      "id": "bolagsverket",
+      "namn": "Bolagsverket",
+      "falt": "hela posten",
+      "andring": "tillagd",
+      "gammalt": null,
+      "nytt": null,
+      "status": null,
+      "kalla": "https://www.bolagsverket.se"
+    },
     {
       "datum": "2026-11-17",
       "commit": "87cf1a8ad2",
